@@ -1,0 +1,534 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659476308493418, "dur":1209, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308494633, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659476308494712, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659476308494734, "dur":419, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659476308495176, "dur":451, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308495627, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308539777, "dur":407, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540184, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540219, "dur":213, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540432, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540440, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540441, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540448, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540449, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540455, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540455, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540460, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540461, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540465, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540466, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540470, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540471, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540475, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540476, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540480, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540481, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540485, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540486, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540490, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540491, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540494, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540509, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308540511, "dur":1557, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659476308495163, "dur":470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308495634, "dur":3562, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308499207, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659476308499208, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308499266, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659476308499271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308500557, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659476308502040, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659476308502073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308502152, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659476308503612, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659476308503661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308503667, "dur":21067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659476308524777, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659476308524815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308524819, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659476308529015, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1659476308529039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659476308529042, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1659476308531605, "dur":8170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308495186, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308495637, "dur":3569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308499206, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659476308499296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308503416, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659476308504706, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308504779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308504784, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308506362, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308506460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308506467, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308508740, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308509727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308509733, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308511187, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308511277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308511284, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308512928, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308513016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308513022, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308515072, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308515160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308515169, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308517316, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308517404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308517410, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308519255, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308519851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308519857, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308521102, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308521375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308521381, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308522843, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308522876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308522880, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308524284, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308524322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308524327, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659476308526328, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1659476308526367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308526373, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1659476308527819, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1659476308527976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308527984, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1659476308531208, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1659476308531343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659476308531348, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1659476308531988, "dur":7797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308495212, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308495643, "dur":3558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308499206, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659476308499276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308501029, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659476308502402, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1659476308502438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308502442, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1659476308504400, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308504474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308504479, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308506125, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308506232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308506239, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308508713, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308508831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308508838, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308511709, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308511809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308511816, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308513590, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308513703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308513711, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308515125, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308515222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308515230, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308517273, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308517349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308517356, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308519510, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308519767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308519773, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308520773, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308520953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308520959, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308522480, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308522517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308522523, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308524744, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308524829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308524835, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659476308527901, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659476308527955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659476308527963, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659476308533574, "dur":6201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308495235, "dur":412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308495647, "dur":3554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308499206, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1659476308499283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308502304, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1659476308504113, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1659476308504260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308504335, "dur":6158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1659476308510540, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308510603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308510609, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308512406, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308512476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308512496, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308514512, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308514588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308514594, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308516277, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308516363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308516370, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308518153, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308518516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308518525, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308520041, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308520605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308520611, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308522597, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308522633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308522639, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308524489, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308524530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308524537, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659476308526288, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1659476308526429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308526471, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1659476308527476, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659476308527677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659476308527685, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659476308531231, "dur":8546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308495255, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308495651, "dur":3554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308499207, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659476308499289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308502581, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659476308504637, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308504726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308504732, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308506261, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308506369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308506376, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308508336, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308508443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308508451, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308509948, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308510026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308510032, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308512084, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308512159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308512166, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308514164, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308514331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308514336, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308516216, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308516287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308516292, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308519260, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308520385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308520391, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308522375, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308522410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308522416, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308524087, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308524117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308524124, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308526058, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308526706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308526711, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659476308528191, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1659476308528229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659476308528235, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1659476308531572, "dur":8208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308495274, "dur":381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308495655, "dur":3544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308499205, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659476308499279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308501321, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659476308502458, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308502500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308502537, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308505349, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308505430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308505437, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308506956, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308507043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308507051, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308508539, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308508637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308508652, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308510081, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308510164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308510170, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308511995, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308512084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308512092, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308513552, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308513587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308513597, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308514824, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308514901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308514906, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308516553, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308516622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308516626, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308518299, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308519404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308519411, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308520829, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308521282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308521290, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308522694, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308522730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308522733, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308524233, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308524262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308524267, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659476308526484, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1659476308526520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659476308526525, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1659476308532068, "dur":7711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308495297, "dur":362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308495659, "dur":3541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308499206, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1659476308499267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308499757, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1659476308502344, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1659476308502381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308502388, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1659476308504445, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308504518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308504523, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308506077, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308506179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308506187, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308507651, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308507734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308507741, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308509577, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308509644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308509648, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308511484, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308511591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308511598, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308513155, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308513259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308513267, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308514949, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308515031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308515040, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308516880, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308516949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308516955, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308518354, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308518459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308518465, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308520175, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308520479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308520495, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308522164, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308522204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308522209, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308523961, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308524075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308524079, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659476308526753, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659476308526795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308526800, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659476308530310, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659476308530337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659476308530342, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659476308531937, "dur":7815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308495321, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308495662, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308499207, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1659476308499281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308501913, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1659476308502783, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308502812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308502815, "dur":7672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308510533, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308510593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308510598, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308512297, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308512368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308512374, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308514449, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308514521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308514526, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308516292, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308516382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308516388, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308518057, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308518129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308518136, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308519741, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308520286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308520291, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308521823, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308521874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308521881, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308526014, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308526658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308526664, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659476308528167, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659476308528221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659476308528228, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1659476308532189, "dur":7596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308495342, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308495664, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308499206, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1659476308499270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308500333, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1659476308502171, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1659476308502198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308502205, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1659476308504005, "dur":13926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator.exe" }}
+,{ "pid":12345, "tid":9, "ts":1659476308517933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308517937, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator.exe" }}
+,{ "pid":12345, "tid":9, "ts":1659476308519768, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308520163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308520169, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308521604, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308521838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308521845, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308523351, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308523396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308523403, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308524938, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308524978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308524984, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1659476308526983, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1659476308527018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1659476308527023, "dur":6339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1659476308533392, "dur":6388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308495359, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308495667, "dur":3541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308499209, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1659476308499269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308499887, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1659476308502158, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1659476308502203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308502208, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1659476308503942, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1659476308503993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308504000, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1659476308508262, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308508361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308508368, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308509959, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308510045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308510052, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308512011, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308512118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308512125, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308514118, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308514197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308514204, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308515719, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308515808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308515816, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308517268, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308517353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308517360, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308519615, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308520180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308520185, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308521793, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308521839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308521845, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308523367, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308523409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308523416, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308524745, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308524786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308524791, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1659476308526344, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1659476308526379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1659476308526384, "dur":13313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1659476308539717, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1659476308539719, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308495375, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308495670, "dur":3533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308499207, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1659476308499275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308500845, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1659476308502244, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1659476308502289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308502297, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1659476308504231, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308504341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308504380, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308506097, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308506197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308506206, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308507782, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308507894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308507900, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308509836, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308509923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308509930, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308511796, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308511882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308511889, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308513681, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308513794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308513802, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308515284, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308515427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308515437, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308517366, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308517443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308517450, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308519642, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308519868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308519875, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308521457, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308521940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308521949, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308523806, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308523847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308523853, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1659476308526897, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1659476308526946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1659476308526953, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1659476308533122, "dur":6655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308495400, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308495673, "dur":3535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308499208, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1659476308499269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308499720, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1659476308502420, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1659476308502459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308502465, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1659476308504552, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308504621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308504627, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308506055, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308506145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308506152, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308507564, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308507652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308507658, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308509237, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308509306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308509310, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308510977, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308511073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308511079, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308512760, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308512824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308512829, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308514812, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308514878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308514901, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308516567, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308516624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308516628, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308518346, "dur":1694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308520043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308520049, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308521949, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308521998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308522006, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308523720, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308523784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308523791, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308525739, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308525817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308525823, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":12, "ts":1659476308527105, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1659476308527142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308527148, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1659476308531077, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1659476308531115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1659476308531121, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Allen/OneDrive/Desktop/Swinging Sim/Swinging Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1659476308532033, "dur":7718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659476308543049, "dur":1357, "ph":"X", "name": "ProfilerWriteOutput" }
+,
