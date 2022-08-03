@@ -10,6 +10,7 @@ public class Volume : MonoBehaviour
 
     public void SetVolume(float volume)
     {
+        //This is used to connect the volume slider with the audio mixer
         audioMixer.SetFloat("Volume", volume);
     }
 }

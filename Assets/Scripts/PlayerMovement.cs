@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     public enum MovementState
     {
+        //Creating different states of movement so it is easier to know what the player can and cannot do
         walking,
         sprinting,
         air,

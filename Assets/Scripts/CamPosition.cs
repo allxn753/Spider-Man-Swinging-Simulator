@@ -8,6 +8,7 @@ public class CamPosition : MonoBehaviour
 
     void Update()
     {
+        //Turning the camera with the player
         transform.position = cameraPosition.position;
     }
 }

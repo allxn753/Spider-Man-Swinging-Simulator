@@ -33,14 +33,18 @@ public class WebShooters : MonoBehaviour
 
     private void LateUpdate()
     {
+        //I use late update so that the web is drawn with the player smoothly
         ShootWeb();
     }
 
     private void StartSwinging()
     {
         RaycastHit hit;
+
+        //Checking if there is a wall in range where the player clicks
         if (Physics.Raycast(camera.position, camera.forward, out hit, maxDistance, whatIsWall))
         {
+            //Creating a spring joint at the point the player points to
             webswingPoint = hit.point;
             joint = player.gameObject.AddComponent<SpringJoint>();
             joint.autoConfigureConnectedAnchor = false;
@@ -48,6 +52,7 @@ public class WebShooters : MonoBehaviour
 
             float distanceFromPoint = Vector3.Distance(player.position, webswingPoint);
 
+            //Joint variables. I found these values best for keeping momentum
             joint.maxDistance = distanceFromPoint * 0.8f;
             joint.minDistance = distanceFromPoint * 0.25f;
             joint.spring = 10f;
@@ -72,6 +77,7 @@ public class WebShooters : MonoBehaviour
     {
         if (!joint || paused) return;
 
+        //Drawing the web
         lr.SetPosition(0, wrist.position);
         lr.SetPosition(1, webswingPoint);
     }

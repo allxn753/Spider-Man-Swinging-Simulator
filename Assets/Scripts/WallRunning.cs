@@ -71,6 +71,7 @@ public class WallRunning : MonoBehaviour
 
     private bool AboveGround()
     {
+        //Seeing if the player is above the ground
         return !Physics.Raycast(transform.position, Vector3.down, minJumpHeight, whatIsGround);
     }
 

@@ -18,6 +18,7 @@ public class FirstPerson : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Hiding the cursor and setting the mouse sensitivity to 100 when the game starts
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         sensX = 100f;
@@ -42,11 +43,13 @@ public class FirstPerson : MonoBehaviour
 
     public void DoFov(float endValue)
     {
+        //Camera FOV zoom out effect
         GetComponent<Camera>().DOFieldOfView(endValue, 0.25f);
     }
 
     public void DoTilt(float zTilt)
     {
+        //Camera tilt effect
         transform.DOLocalRotate(new Vector3(0,0,zTilt), 0.25f);
     }
 }

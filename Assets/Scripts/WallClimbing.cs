@@ -47,7 +47,10 @@ public class WallClimbing : MonoBehaviour
 
     private void WallCheck()
     {
+        //Checking if there is a wall in front of the player
         wallFront = Physics.SphereCast(transform.position, sphereCastRadius, orientation.forward, out frontWallHit, detectionLength, whatIsWall);
+        
+        //Angle between the player's vision and the wall normal
         wallLookAngle = Vector3.Angle(orientation.forward, -frontWallHit.normal);
     }
 
@@ -60,6 +63,7 @@ public class WallClimbing : MonoBehaviour
 
     private void Climbing()
     {
+        //Changing the player velocity so that the player can move up and climb
         rb.velocity = new Vector3(rb.velocity.z, climbSpeed, rb.velocity.z);
     }
 
